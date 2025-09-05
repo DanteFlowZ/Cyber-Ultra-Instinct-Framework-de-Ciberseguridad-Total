@@ -22,10 +22,11 @@ Este proyecto no es un simple repo de hacking: es un **framework ofensivo y defe
 
 ## 🧠 Arquitectura
 
-mermaid
+```mermaid
 graph TD
     A[Atacante Red Team] -->|Escaneo / Exploits| B[Infra vulnerable]
     B -->|Logs| C[Log Monitor]
     B -->|Interacción falsa| D[Honeypot Modular]
     C --> E[Alert Manager]
     E -->|Notificaciones| F[Blue Team Analyst]
+```
