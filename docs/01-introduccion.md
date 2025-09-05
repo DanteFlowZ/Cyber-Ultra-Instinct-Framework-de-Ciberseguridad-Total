@@ -46,9 +46,10 @@ Este framework combina ambas filosofías para lograr un **entrenamiento completo
 Este proyecto es **exclusivamente educativo**.  
 El uso en sistemas de terceros sin autorización es ilegal y contrario a la ética profesional.
 
+```mermaid
 flowchart LR
     A[Red Team 🔴] -->|Simula ataques| C[Framework Ultra Instinct ⚡]
     B[Blue Team 🔵] -->|Defiende y analiza| C
     C --> D[Conocimiento compartido 📚]
     D --> E[Mejora continua 🚀]
-
+```
