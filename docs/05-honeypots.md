@@ -52,7 +52,7 @@ Usuario: root | Contraseña: admin123
 
 🔄 ***Flujo de un ataque contra honeypot***
 
-```
+```mermaid
 sequenceDiagram
     participant Atacante
     participant Honeypot
