@@ -48,10 +48,11 @@ Ejemplo de log generado:
 ´´´text
 [2025-09-04 10:15:33] Conexión detectada desde 192.168.1.50
 Usuario: root | Contraseña: admin123
-```
+´´´
 
-**🔄 Flujo de un ataque contra honeypot**
-```mermaid
+🔄 ***Flujo de un ataque contra honeypot***
+
+```
 sequenceDiagram
     participant Atacante
     participant Honeypot
