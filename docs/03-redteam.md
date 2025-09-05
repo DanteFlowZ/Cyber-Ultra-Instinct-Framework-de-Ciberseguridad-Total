@@ -27,26 +27,26 @@ Ejemplo de ejecución:
 ```bash
 python3 core/scanner.py -t 192.168.1.10 -p 20-1000
 ```
-📚 Casos prácticos
-Caso 1 – Escaneo contra honeypot
+***📚 Casos prácticos***
+*Caso 1 – Escaneo contra honeypot*
 
-El atacante ejecuta scanner.py.
+1. El atacante ejecuta `scanner.py`.
 
-El honeypot del Blue Team (honeypot_basic.py) registra el intento.
+2. El honeypot del Blue Team (`honeypot_basic.py`) registra el intento.
 
-Caso 2 – Intentos de fuerza bruta
+*Caso 2 – Intentos de fuerza bruta*
 
-bruteforce_ssh.py lanza múltiples credenciales.
+1. `bruteforce_ssh.py` lanza múltiples credenciales.
 
-El sistema defensivo activa alertas en detect_scan.py.
+2. El sistema defensivo activa alertas en `detect_scan.py`.
 
-Caso 3 – Conexión persistente
+*Caso 3 – Conexión persistente*
 
-Se lanza un reverse_shell.py.
+1. Se lanza un `reverse_shell.py`.
 
-log_monitor.py del Blue Team detecta actividad anómala.
+2. `log_monitor.py` del Blue Team detecta actividad anómala.
 
-⚖️ Consideraciones
+***⚖️ Consideraciones***
 
 Los ataques deben ejecutarse únicamente en laboratorios controlados.
 
