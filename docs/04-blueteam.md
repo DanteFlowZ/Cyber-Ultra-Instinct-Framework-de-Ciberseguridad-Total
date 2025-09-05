@@ -74,25 +74,26 @@ flowchart TD
 ```
 
 📚 Casos prácticos
+
 Caso 1 – Ataque de fuerza bruta SSH
 
-Red Team ejecuta bruteforce_ssh.py.
+Red Team ejecuta 'bruteforce_ssh.py'.
 
-Blue Team registra intentos en honeypot_basic.py.
+Blue Team registra 'intentos en honeypot_basic.py'.
 
-log_monitor.py detecta patrones de login repetidos.
+'log_monitor.py' detecta patrones de login repetidos.
 
 Caso 2 – Escaneo masivo
 
-Red Team lanza scanner.py.
+Red Team lanza 'scanner.py'.
 
-Blue Team detecta el patrón en detect_scan.py.
+Blue Team detecta el patrón en 'detect_scan.py'.
 
 Caso 3 – Conexión persistente
 
-Red Team establece reverse_shell.py.
+Red Team establece 'reverse_shell.py'.
 
-Blue Team revisa logs con log_monitor.py y activa alerta.
+Blue Team revisa logs con 'log_monitor.py' y activa alerta.
 
 ⚖️ Consideraciones
 
