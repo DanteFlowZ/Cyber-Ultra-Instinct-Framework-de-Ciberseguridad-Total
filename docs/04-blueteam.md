@@ -73,29 +73,29 @@ flowchart TD
     D --> E[🚀 Respuesta del analista]
 ```
 
-📚 Casos prácticos
+***📚 Casos prácticos***
 
-Caso 1 – Ataque de fuerza bruta SSH
+*Caso 1 – Ataque de fuerza bruta SSH*
 
-Red Team ejecuta `bruteforce_ssh.py`.
+1. Red Team ejecuta `bruteforce_ssh.py`.
 
-Blue Team registra `intentos en honeypot_basic.py`.
+2. Blue Team registra `intentos en honeypot_basic.py`.
 
-`log_monitor.py` detecta patrones de login repetidos.
+3. `log_monitor.py` detecta patrones de login repetidos.
 
-Caso 2 – Escaneo masivo
+*Caso 2 – Escaneo masivo*
 
-Red Team lanza `scanner.py`.
+1. Red Team lanza `scanner.py`.
 
-Blue Team detecta el patrón en `detect_scan.py`.
+2. Blue Team detecta el patrón en `detect_scan.py`.
 
-Caso 3 – Conexión persistente
+*Caso 3 – Conexión persistente*
 
-Red Team establece `reverse_shell.py`.
+1. Red Team establece `reverse_shell.py`.
 
-Blue Team revisa logs con `log_monitor.py` y activa alerta.
+2. Blue Team revisa logs con `log_monitor.py` y activa alerta.
 
-⚖️ Consideraciones
+***⚖️ Consideraciones***
 
 Este framework no sustituye un SIEM corporativo.
 
